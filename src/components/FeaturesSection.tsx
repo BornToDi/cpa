@@ -39,19 +39,26 @@ const FeaturesSection = () => {
           {features.map((feature, index) => {
             const Icon = feature.icon;
             return (
-              <Card key={index} className="group hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-0 shadow-lg">
-                <CardContent className="p-8 text-center">
-                  <div className={`w-16 h-16 mx-auto mb-6 rounded-full bg-gradient-to-r ${feature.gradient} flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
-                    <Icon className="h-8 w-8 text-white" />
-                  </div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                    {feature.title}
-                  </h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    {feature.description}
-                  </p>
-                </CardContent>
-              </Card>
+             <a 
+                href="https://redrection.pro/a/rkZ4Bi22y8HzX1r" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <Card key={index} className="group hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-0 shadow-lg">
+                  <CardContent className="p-8 text-center">
+                    <div className={`w-16 h-16 mx-auto mb-6 rounded-full bg-gradient-to-r ${feature.gradient} flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
+                      <Icon className="h-8 w-8 text-white" />
+                    </div>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-4">
+                      {feature.title}
+                    </h3>
+                    <p className="text-gray-600 leading-relaxed">
+                      {feature.description}
+                    </p>
+                  </CardContent>
+                </Card>
+              </a>
+
             );
           })}
         </div>

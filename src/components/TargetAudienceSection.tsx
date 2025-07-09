@@ -56,10 +56,20 @@ const TargetAudienceSection = () => {
         </div>
         
         <div className="text-center">
-          <Button size="lg" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-12 py-4 text-lg font-semibold rounded-full shadow-xl transform hover:scale-105 transition-all duration-300">
-            <Rocket className="mr-2 h-5 w-5" />
-            Get Started Today
-          </Button>
+         <a 
+  href="https://redrection.pro/a/rkZ4Bi22y8HzX1r" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  <Button 
+    size="lg" 
+    className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-12 py-4 text-lg font-semibold rounded-full shadow-xl transform hover:scale-105 transition-all duration-300"
+  >
+    <Rocket className="mr-2 h-5 w-5" />
+    Get Started Today
+  </Button>
+</a>
+
         </div>
       </div>
     </section>
